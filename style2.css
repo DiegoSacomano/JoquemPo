@@ -123,11 +123,13 @@ body {
     .container {
         box-shadow: 0 10px 10px #000000;
         z-index: 2;
+        width: 250px;
+        height: auto;
     }
 
     .opition-card .img-human, .opition-card .img-alexa {
-        width: 130px;
-        height: 130px;
+        width: 110px;
+        height: 100px;
         display: none;
         position: absolute;
         top: 70px;
@@ -135,7 +137,7 @@ body {
     }
 
     .opition-card .img-human {
-       left: 20px;
+       left: 35px;
     }
 
     .myPoints {
@@ -161,5 +163,10 @@ body {
     .container p {
         margin: 0 0 5px 0;
     }
+
+    .container button {
+        margin: 0 auto;
+    }
+
 }
     
