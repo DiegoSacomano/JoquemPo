@@ -1,0 +1,153 @@
+/*
+https://loremflickr.com/1600/900/landscape?random=1
+
+troca imagens aleatorias
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("https://img.wallscloud.net/uploads/thumb/3698300427/1624767012_20-phonoteka_org-p-oboi-na-rabochii-stol-skazka-krasivo-23-1024x576-MM-80.webp");
+    background-size: cover;
+}
+
+.container {
+    background-color: #fff;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 12px;
+}
+
+.container h1 {
+    font-size: 2.4rem;
+    padding: 3px;
+}
+
+.container button {
+    padding: 10px;
+    margin: 20px 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.container button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 15px #000;
+}
+
+#pedra {
+    background-color: blueviolet;
+}
+#papel {
+    background-color: rgb(1, 156, 1);
+}
+#tesoura {
+    background-color: rgb(0, 128, 255);
+}
+
+.container p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.myPoints {
+    color: rgb(0, 166, 255);
+}
+
+.randomPoints {
+    color: red;
+}
+
+.empate {
+    color: yellow;
+}
+
+.result-span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    margin: 20px 0 20px 0;
+}
+
+.reset-btn .reset {
+    margin: 0 auto;
+    background-color: #15fc00;
+    color: #fff;
+    padding: 5px;
+    display: none;
+}
+
+.opition-card .img-human, .opition-card .img-alexa {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.opition-card .img-human {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+}
+
+.opition-card .img-alexa {
+    position: absolute;
+    top: 40%;
+    right: 50px;
+}
+
+
+@media screen and (max-width: 980px) {
+    body {
+        background: #f3eb03;
+        overflow: hidden;
+    }
+
+    .container {
+        box-shadow: 0 10px 10px #000000;
+        z-index: 2;
+    }
+
+    .opition-card .img-human, .opition-card .img-alexa {
+        width: 130px;
+        height: 130px;
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 50%;
+    }
+
+    .opition-card .img-human {
+       left: 20px;
+    }
+
+    .myPoints {
+        font-size: 1.5rem;
+    }
+    
+    .randomPoints {
+        font-size: 1.5rem;
+    }
+
+    .empate {
+        font-size: 1.5rem;
+    }
+}
+    

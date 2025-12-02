@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>JokenPô</title>
+</head>
+<body>
+    <div class="container">
+        <h1>JokenPô</h1>
+
+        <button id="pedra" onclick="playHuman('pedra', 1)">&#x1F44A;</button>
+        <button id="papel" onclick="playHuman('papel', 2)">&#x1f590;</button>
+        <button id="tesoura" onclick="playHuman('tesoura', 3)">&#x270c;</button>
+
+        <p id="myPoints">Sua pontuação: <span class="myPoints">0</span></p>
+        <p id="empate">Empate <span class="empate">0</span></p>
+        <p id="randomPoints">Pontuação da Alexa: <span class="randomPoints">0</span></p>
+
+        <div class="reset-btn">
+            <button class="reset" onclick="reset()">resetar</button>
+        </div>
+        
+        <span class="result-span"></span>
+    </div>
+
+    <div class="opition-card">
+        <img src="" alt="opição do jogador" class="img-human">
+        <img src="" alt="opição da alexa" class="img-alexa">
+    </div>
+
+    <script src="./desafio-joquenpo.js"></script>
+</body>
+</html>
