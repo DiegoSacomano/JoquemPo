@@ -149,5 +149,17 @@ body {
     .empate {
         font-size: 1.5rem;
     }
+
+    .result-span {
+        font-size: 1.5rem;
+    }
+
+    .reset-btn .reset {
+        font-size: 1.2rem;
+    }
+
+    .container p {
+        margin: 0 0 5px 0;
+    }
 }
     
