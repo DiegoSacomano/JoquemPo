@@ -8,3 +8,7 @@
 <p>Projeto feito com o DevClub de um jogo interativo de joquemPô</p>
 <br/>
 <p>algumas imagens a baixo:</p>
+<img src="https://github.com/user-attachments/assets/63986d72-fc30-4a85-8d6d-0887b139dc7c" alt="imagem-versao-descktop"/>
+<br/>
+<h4>Versão Mobile</h4>
+<img src="https://github.com/user-attachments/assets/6677577c-c612-4275-8c97-c1c3baf782cd" alt="imagem-mobile"/>
